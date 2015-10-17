@@ -9,7 +9,6 @@
 #import <UIKit/UIKit.h>
 
 @interface ViewController : UIViewController
-
 @property (strong, nonatomic) IBOutlet UILabel *nameLabel;
 
 @property (strong, nonatomic) IBOutlet UIImageView *birdImageView;
@@ -17,14 +16,14 @@
 @property (nonatomic) NSInteger randomIndex;
 
 @property (nonatomic) NSDictionary *birdDict;
-
 @property (nonatomic) NSInteger index;
+@property (strong, nonatomic) NSArray *myKeys;
+@property (nonatomic) UIButton *answerButton;
 
-@property (nonatomic) NSString *thisKey;
 
-@property (nonatomic) NSArray *myKeys;
 
-@property (nonatomic) NSString *thisObject;
+
+
 
 @end
 
