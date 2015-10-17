@@ -18,8 +18,13 @@
 
 @property (nonatomic) NSDictionary *birdDict;
 
+@property (nonatomic) NSInteger index;
 
+@property (nonatomic) NSString *thisKey;
 
+@property (nonatomic) NSArray *myKeys;
+
+@property (nonatomic) NSString *thisObject;
 
 @end
 
