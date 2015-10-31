@@ -15,6 +15,7 @@
 		00495A961BBEDB5000CADEBD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 00495A941BBEDB5000CADEBD /* LaunchScreen.storyboard */; };
 		00495AA11BBEDB5000CADEBD /* BirdGenius3Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00495AA01BBEDB5000CADEBD /* BirdGenius3Tests.m */; };
 		00495AAC1BBEDB5000CADEBD /* BirdGenius3UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00495AAB1BBEDB5000CADEBD /* BirdGenius3UITests.m */; };
+		9E93060C1BE03745009D18F9 /* Bird.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E93060B1BE03745009D18F9 /* Bird.m */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		00495AA71BBEDB5000CADEBD /* BirdGenius3UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BirdGenius3UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		00495AAB1BBEDB5000CADEBD /* BirdGenius3UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BirdGenius3UITests.m; sourceTree = "<group>"; };
 		00495AAD1BBEDB5000CADEBD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9E93060A1BE03745009D18F9 /* Bird.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Bird.h; sourceTree = "<group>"; };
+		9E93060B1BE03745009D18F9 /* Bird.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Bird.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +108,8 @@
 				00495A8A1BBEDB5000CADEBD /* AppDelegate.m */,
 				00495A8C1BBEDB5000CADEBD /* ViewController.h */,
 				00495A8D1BBEDB5000CADEBD /* ViewController.m */,
+				9E93060A1BE03745009D18F9 /* Bird.h */,
+				9E93060B1BE03745009D18F9 /* Bird.m */,
 				00495A8F1BBEDB5000CADEBD /* Main.storyboard */,
 				00495A921BBEDB5000CADEBD /* Assets.xcassets */,
 				00495A941BBEDB5000CADEBD /* LaunchScreen.storyboard */,
@@ -275,6 +280,7 @@
 			files = (
 				00495A8E1BBEDB5000CADEBD /* ViewController.m in Sources */,
 				00495A8B1BBEDB5000CADEBD /* AppDelegate.m in Sources */,
+				9E93060C1BE03745009D18F9 /* Bird.m in Sources */,
 				00495A881BBEDB5000CADEBD /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -501,6 +507,7 @@
 				00495AB21BBEDB5000CADEBD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		00495AB31BBEDB5000CADEBD /* Build configuration list for PBXNativeTarget "BirdGenius3Tests" */ = {
 			isa = XCConfigurationList;
@@ -509,6 +516,7 @@
 				00495AB51BBEDB5000CADEBD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		00495AB61BBEDB5000CADEBD /* Build configuration list for PBXNativeTarget "BirdGenius3UITests" */ = {
 			isa = XCConfigurationList;
@@ -517,6 +525,7 @@
 				00495AB81BBEDB5000CADEBD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
