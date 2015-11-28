@@ -1,1 +1,1 @@
-# bird_genius_urlhardcoded
+# bird_genius This is flashcard app for bird enthusiasts to practice ID-ing birds. This app is written in Objective C and data is stored externally on Parse.com. The cards are shuffled so that the player gets a shuffled deck each time.
