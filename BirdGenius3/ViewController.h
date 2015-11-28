@@ -8,10 +8,11 @@
 
 #import <UIKit/UIKit.h>
 #import <Parse/Parse.h>
+#import <ParseUI/ParseUI.h>
 
 @interface ViewController : UIViewController
 
-@property (strong, nonatomic) IBOutlet UILabel *nameLabel;
+@property  (strong, nonatomic) IBOutlet UILabel *nameLabel;
 
 @property (strong, nonatomic) IBOutlet UIImageView *birdImageView;
 
@@ -21,10 +22,30 @@
 
 @property (strong, nonatomic) NSMutableArray *birdArray;
 
+@property (strong, nonatomic) NSMutableArray *parseArray;
+
+@property (strong, nonatomic) NSMutableArray *bjl_shuffledArray;
+
+@property (strong, nonatomic) NSArray *objects;
+
 @property (strong, nonatomic) IBOutlet UILabel *latinName;
 
 @property (strong, nonatomic) IBOutlet UILabel *photogName;
 
+@property (nullable, nonatomic, strong) PFFile *file;
+
+@property (nullable, strong, nonatomic) NSURL *imageFileURL;
+
+
+
+
+
+
+- (IBAction)handlePinch:(UIPinchGestureRecognizer *)recognizer;
+
+- (IBAction)handlePan:(UIPanGestureRecognizer *)recognizer;
+
+- (IBAction)handleDoubleTap:(UITapGestureRecognizer *)recognizer;
 
 @end
 
