@@ -11,17 +11,14 @@
 
 @implementation Bird
 
--(id)initWithImageURL:(NSString *)image name:(NSString *)name latinName:(NSString *)latinName photogName:(NSString *)photogName
+-(id)initWithImage:(UIImage *)image name:(NSString *)name latinName:(NSString *)latinName photogName:(NSString *)photogName
 {
     if(self = [super init]) {
         
         self.name = name;
         self.latinName = latinName;
         self.photogName = photogName;
-        NSURL *imageURL = [NSURL URLWithString:image];
-        NSData *imageData = [NSData dataWithContentsOfURL:imageURL];
-        self.image = [UIImage imageWithData:imageData];
-        
+        self.image = image;
     }
     return self;
 }

@@ -11,14 +11,14 @@
 
 @interface Bird : NSObject
 
--(id)initWithImageURL:(NSString *)image name:(NSString *)name latinName:(NSString *)latinName photogName:(NSString *)photogName;
+-(id)initWithImage:(UIImage *)image name:(NSString *)name latinName:(NSString *)latinName photogName:(NSString *)photogName;
 
 
 @property (strong, nonatomic) UIImage *image;
 @property (strong, nonatomic) NSString *name;
 @property (strong, nonatomic) NSString *latinName;
 @property (strong, nonatomic) NSString *photogName;
-@property (strong, nonatomic) NSString *imageURL;
+
 @end
 
 
