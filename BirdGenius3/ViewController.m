@@ -29,7 +29,7 @@
         for (CKRecord *record in results) {
             CKAsset *birdImage = [record objectForKey:@"image"];
             UIImage *image = [[UIImage alloc] initWithContentsOfFile:birdImage.fileURL.path];
-            Bird *thisBird = [[Bird alloc] initWithImage:image name:[record objectForKey:@"name"] latinName:[record objectForKey:@"latinName"] photogName:[record objectForKey:@"photogName"]];
+            Bird *thisBird = [[Bird alloc] initWithImage:image name:[record objectForKey:@"title"] latinName:[record objectForKey:@"latinName"] photogName:[record objectForKey:@"photogName"]];
             [self.birdArray addObject:thisBird];
         }
         self.index = 0;

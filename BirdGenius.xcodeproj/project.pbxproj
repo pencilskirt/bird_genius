@@ -251,7 +251,7 @@
 				TargetAttributes = {
 					00495A821BBEDB5000CADEBD = {
 						CreatedOnToolsVersion = 7.0.1;
-						DevelopmentTeam = 45SFB8A6CE;
+						DevelopmentTeam = BH9F2T897B;
 						SystemCapabilities = {
 							com.apple.iCloud = {
 								enabled = 1;
@@ -475,7 +475,7 @@
 				INFOPLIST_FILE = BirdGenius3/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.gleim.BirdGenius4;
+				PRODUCT_BUNDLE_IDENTIFIER = com.pencilskirtstudio.BirdGenius5;
 				PRODUCT_NAME = BirdGenius;
 				PROVISIONING_PROFILE = "";
 			};
@@ -496,7 +496,7 @@
 				INFOPLIST_FILE = BirdGenius3/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.gleim.BirdGenius4;
+				PRODUCT_BUNDLE_IDENTIFIER = com.pencilskirtstudio.BirdGenius5;
 				PRODUCT_NAME = BirdGenius;
 				PROVISIONING_PROFILE = "";
 			};
